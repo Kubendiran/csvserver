@@ -4,6 +4,8 @@
 ./gencsv.sh >> inputFile
 
 #generate docker image
+
+
 docker build -t infracloudio/csvserver:latest .
 
 #run docker image
